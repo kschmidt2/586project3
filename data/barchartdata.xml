@@ -1,0 +1,123 @@
+<xml>
+
+  <generalreligions>
+    <generalreligion name="Christian">
+      <seveng>78.4</seveng>
+      <fourteeng>70.6</fourteeng>
+    </generalreligion>
+    <generalreligion name="Non-Christian faiths">
+      <seveng>4.7</seveng>
+      <fourteeng>5.9</fourteeng>
+    </generalreligion>
+    <generalreligion name="Unaffiliated">
+      <seveng>16.1</seveng>
+      <fourteeng>22.8</fourteeng>
+    </generalreligion>
+    <generalreligion name="Don't know/refused">
+      <seveng>0.8</seveng>
+      <fourteeng>0.6</fourteeng>
+    </generalreligion>
+  </generalreligions>
+
+  <specificreligions>
+    <specificreligion name="Protestant">
+      <sevens>51.3</sevens>
+      <fourteens>46.5</fourteens>
+    </specificreligion>
+    <specificreligion name="Catholic">
+      <sevens>23.9</sevens>
+      <fourteens>20.8</fourteens>
+    </specificreligion>
+    <specificreligion name="Orthodox Christian">
+      <sevens>0.6</sevens>
+      <fourteens>0.5</fourteens>
+    </specificreligion>
+    <specificreligion name="Mormon">
+      <sevens>1.7</sevens>
+      <fourteens>1.6</fourteens>
+    </specificreligion>
+    <specificreligion name="Jehovah's Witness">
+      <sevens>0.7</sevens>
+      <fourteens>0.8</fourteens>
+    </specificreligion>
+    <specificreligion name="Other Christian">
+      <sevens>0.3</sevens>
+      <fourteens>0.4</fourteens>
+    </specificreligion>
+    <specificreligion name="Jewish">
+      <sevens>1.7</sevens>
+      <fourteens>1.9</fourteens>
+    </specificreligion>
+    <specificreligion name="Muslim">
+      <sevens>0.4</sevens>
+      <fourteens>0.9</fourteens>
+    </specificreligion>
+    <specificreligion name="Buddhist">
+      <sevens>0.7</sevens>
+      <fourteens>0.7</fourteens>
+    </specificreligion>
+    <specificreligion name="Hindu">
+      <sevens>0.4</sevens>
+      <fourteens>0.7</fourteens>
+    </specificreligion>
+    <specificreligion name="Other world religions">
+      <sevens>0.3</sevens>
+      <fourteens>0.3</fourteens>
+    </specificreligion>
+    <specificreligion name="Other faiths">
+      <sevens>1.2</sevens>
+      <fourteens>1.5</fourteens>
+    </specificreligion>
+    <specificreligion name="Atheist">
+      <sevens>1.6</sevens>
+      <fourteens>3.1</fourteens>
+    </specificreligion>
+    <specificreligion name="Agnostic">
+      <sevens>2.4</sevens>
+      <fourteens>4</fourteens>
+    </specificreligion>
+    <specificreligion name="Nothing in particular">
+      <sevens>12.1</sevens>
+      <fourteens>15.8</fourteens>
+    </specificreligion>
+    <specificreligion name="Don't know/refused">
+      <sevens>0.8</sevens>
+      <fourteens>0.6</fourteens>
+    </specificreligion>
+  </specificreligions>
+
+  <generations>
+    <generation name="Silent generation (born 1928-1945)">
+      <christian>85</christian>
+      <other>4</other>
+      <unaffiliated>11</unaffiliated>
+      <dontknow>0</dontknow>
+    </generation>
+    <generation name="Baby Boomers (born 1946-1964)">
+      <christian>78</christian>
+      <other>5</other>
+      <unaffiliated>17</unaffiliated>
+      <dontknow>0</dontknow>
+    </generation>
+    <generation name="Generation X (born 1965-1980)">
+      <christian>70</christian>
+      <other>6</other>
+      <unaffiliated>23</unaffiliated>
+      <dontknow>1</dontknow>
+    </generation>
+    <generation name="Older Millennials (born 1981-1989)">
+      <christian>57</christian>
+      <other>8</other>
+      <unaffiliated>34</unaffiliated>
+      <dontknow>1</dontknow>
+    </generation>
+    <generation name="Younger Millennials (born 1990-1996)">
+      <christian>56</christian>
+      <other>8</other>
+      <unaffiliated>36</unaffiliated>
+      <dontknow>0</dontknow>
+    </generation>
+  </generations>
+
+
+</xml>

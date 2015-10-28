@@ -1,0 +1,26 @@
+<xml>
+
+  <importants>
+    <important name="Very important">
+      <seven>56</seven>
+      <fourteen>53</fourteen>
+    </important>
+    <important name="Somewhat important">
+      <seven>26</seven>
+      <fourteen>24</fourteen>
+    </important>
+    <important name="Not too important">
+      <seven>9</seven>
+      <fourteen>11</fourteen>
+    </important>
+    <important name="Not at all important">
+      <seven>7</seven>
+      <fourteen>11</fourteen>
+    </important>
+    <important name="Don't know/refused">
+      <seven>1</seven>
+      <fourteen>1</fourteen>
+    </important>
+  </importants>
+
+</xml>

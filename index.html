@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Religion in the United States</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="css/datatables.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400italic|Playfair+Display' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="js/respond.js"></script>
+</head>
+
+<body>
+
+    <div class="row topnav">
+      <div class="col-xs-6">
+        <span id="homelink">
+          <a class="btn btn-default btn-sm leftbuttons" href="#" role="button"><img src="css/images/tlogo.png" class="tlogo"> &nbsp Home</a>
+        </span>&nbsp&nbsp
+        <span id="searchlink">
+          <a class="btn btn-default btn-sm leftbuttons" href="#" role="button"><i class="fa fa-search fa-lg"></i> &nbsp Search</a>
+        </span>
+      </div>
+      <div class="col-xs-6">
+        <span id="login">
+          <a class="btn btn-default btn-sm loginbutton" href="#" role="button">Log in</a> &nbsp&nbsp <i class="fa fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="row introbox">
+      <div class="col-xs-12">
+        <h1>The Changing Religious Landscape in the United States</h1>
+        <div class="date">Oct. 28, 2015</div>
+        <ul class="nav nav-pills" role="tablist">
+          <li role="presentation" class="active"><a href="#introduction" class="btn btn-primary btn-xs" aria-controls="home" role="tab" data-toggle="tab">Introduction</a></li>
+          <li role="presentation"><a href="#aboutdata" class="btn btn-primary btn-xs" aria-controls="profile" role="tab" data-toggle="tab">About the Data</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active introtext" id="introduction">
+            The share of Americans who identify as Christian is declining while the number of American adults who
+            do not identify with any organized religion is growing, according to a
+            <a href="http://www.pewforum.org/2015/05/12/americas-changing-religious-landscape/" target="blank">2014 study from the Pew Research Center.</a>
+            These changes are occurring across the country and while the decline is especially pronounced in the younger
+            generations, it is taking place among all age groups. The United States is still home to more Christians than any
+            other country as roughly one in seven Americans identifies with some branch of Christianity, but the 2014 survey
+            found the percentage of adults who identify as Christian dropped eight percentage points in the seven years since
+            a similar Pew study in 2007. View the graphs below to see results from the 2014 study and compare how Americans
+            identified in 2007 with how they identified in 2014.
+          </div>
+          <div role="tabpanel" class="tab-pane introtext" id="aboutdata">
+            The centerpiece of the 2014 U.S. Religious Landscape Study was a nationally representative telephone survey of 35,071 adults.
+            It was a follow up to the Pew Research Center's 2007 religious survey of over 35,000 Americans. The latest survey was conducted
+            in both English and Spanish from June 4-Sept. 30, 2014. The survey is estimated to cover 97% of the U.S. population and
+            had a margin of sampling error of plus or minus 0.6 points. The "change" represented in the graphs below represent only
+            statistically significant changes, blank cells indicate the difference between 2007 an 2014 is within this margin. Even this
+            small margin of error when applied to hundreds of millions of Americans can yield a wide range of estimates for the size of
+            particular faiths.
+          </div>
+        </div>
+        <!-- <div class="bottombar"></div> -->
+      </div>
+    </div>
+
+    <div class="container">
+
+    <div class="row margins">
+      <div class="col-xs-12 col-sm-9 barcharts">
+        <h2>Religious makeup of the United States, 2007 vs. 2014</h2>
+        <h3>Hover over the graph to see the percentage of Americans who identify with each group. Choose the Specific Religions tab for a more detailed breakdown of the religions.</h3>
+        <ul class="nav nav-pills" role="tablist">
+          <li role="presentation" class="active"><a href="#barchart1" class="btn btn-primary btn-xs" aria-controls="barchart1" role="tab" data-toggle="tab">General Religions</a></li>
+          <li role="presentation"><a href="#barchart2" class="btn btn-primary btn-xs" aria-controls="barchart2" role="tab" data-toggle="tab">Specific Religions</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="barchart1">
+            <div id="bar1"></div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="barchart2">
+            <div id="bar2" class="containschart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-3 piecharts">
+        <h2>How important is religion to Americans?</h2>
+        <h3>Toggle between the buttons to see how Americans' views on religion changed between the studies.</h3>
+        <ul class="nav nav-pills" role="tablist">
+          <li role="presentation" class="active"><a href="#piechart1" class="btn btn-primary btn-xs" aria-controls="home" role="tab" data-toggle="tab">2007</a></li>
+          <li role="presentation"><a href="#piechart2" class="btn btn-primary btn-xs" aria-controls="profile" role="tab" data-toggle="tab">2014</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="piechart1">
+            <div id="pie1" style="height: 350px"></div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="piechart2">
+            <div id="pie2" style="height: 350px" class="containschart"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row margins1 barcharts maps">
+      <div class="col-xs-12 col-sm-9">
+        <h2>Religious makeup by state, 2014</h2>
+        <h3>Hover over the maps to see details about each state.</h3>
+        <ul class="nav nav-pills" role="tablist">
+          <li role="presentation" class="active"><a href="#map1" class="btn btn-primary btn-xs" aria-controls="home" role="tab" data-toggle="tab">Percent Christian</a></li>
+          <li role="presentation"><a href="#map2" class="btn btn-primary btn-xs" aria-controls="profile" role="tab" data-toggle="tab">Percent unaffiliated</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="map1">
+            <div id="usmap1"></div>
+          </div>
+          <div role="tabpanel" class="tab-pane" id="map2">
+            <div id="usmap2" class="containschart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-3 region">
+        <h2>Religious makeup by region, 2014</h2>
+        <div id="mapbar"></div>
+        <div class="regionkey"><strong>Northeast:</strong> CT, ME, MA, NH, NJ, NY, PA, RI, VT</div>
+        <div class="regionkey"><strong>Midwest:</strong> IL, IN, IA, KS, MI, MN, MO, NE, ND, OH, SD, WI</div>
+        <div class="regionkey"><strong>West:</strong> AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA, WY</div>
+        <div class="regionkey"><strong>South:</strong> AL, AR, DE, DC, FL, GA, KY, LA, MD, MS, NC, OK, SC, TN, TX, VA, WV</div>
+      </div>
+    </div>
+
+    <div class="row margins">
+      <div class="col-xs-12 col-sm-4 piecharts">
+        <h2>Religious breakdown of generations</h2>
+        <h3 class="nopadding">Hover over the graph to see how each generation identified in 2014.</h3>
+        <div id="stackgraph" style="height: 350px"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-8 leftpadding">
+        <h2>Change in religious affiliation, 2007 to 2014</h2>
+        <table id="table" class="compact stripe" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Religion</th>
+                <th>2007</th>
+                <th>2014</th>
+                <th>Change</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+              <th>Religion</th>
+              <th>2007</th>
+              <th>2014</th>
+              <th>Change</th>
+            </tr>
+        </tfoot>
+    </table>
+      </div>
+    </div>
+
+    <div class="row footer">
+      <div class="col-xs-9">
+        © 2015 The New York Times Company | Home | Search | Contact Us | Work With Us | Advertise | Your Ad Choices | Privacy | Terms of Service | Terms of Sale
+      </div>
+      <div class="col-xs-3">
+        Site Map | Help | Site Feedback | Subscriptions
+      </div>
+    </div>
+
+  </div>
+
+<!-- javacript -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+<script src="js/charts.js"></script>
+<!-- <script src="http://code.highcharts.com/maps/highmaps.js"></script> -->
+<script src="http://code.highcharts.com/maps/modules/data.js"></script>
+<script src="http://code.highcharts.com/maps/modules/map.js"></script>
+<script src="http://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+<script src="js/maps.js"></script>
+<script>
+jQuery(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) { // on tab selection event
+		    jQuery( ".containschart" ).each(function() { // target each element with the .contains-chart class
+		        var chart = jQuery(this).highcharts(); // target the chart itself
+		        chart.reflow() // reflow that chart
+		    });
+		})
+
+
+</script>
+</body>
+</html>

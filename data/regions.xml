@@ -1,0 +1,26 @@
+<xml>
+
+  <regions>
+    <region name="Northeast">
+      <christian1>66</christian1>
+      <other1>9</other1>
+      <unaffiliated1>25</unaffiliated1>
+    </region>
+    <region name="Midwest">
+      <christian1>73</christian1>
+      <other1>4</other1>
+      <unaffiliated1>22</unaffiliated1>
+    </region>
+    <region name="West">
+      <christian1>66</christian1>
+      <other1>7</other1>
+      <unaffiliated1>28</unaffiliated1>
+    </region>
+    <region name="South">
+      <christian1>76</christian1>
+      <other1>3</other1>
+      <unaffiliated1>19</unaffiliated1>
+    </region>
+  </regions>
+
+</xml>
