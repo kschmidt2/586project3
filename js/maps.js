@@ -62,14 +62,14 @@ $(function () {
 
                 colorAxis: {
                     dataClasses: [{
-                        to: 20,
+                        to: 19,
                         color: '#ffe9ed'
                     }, {
-                        from: 21,
-                        to: 30,
+                        from: 20,
+                        to: 27,
                         color: '#dd9eaf'
                     }, {
-                        from: 31,
+                        from: 28,
                         color: '#a65c7a'
                     }]
                 },
@@ -86,7 +86,9 @@ $(function () {
                         }
                     },
                     tooltip: {
-                        valueSuffix: '%'
+                        valueSuffix: '%',
+                        pointFormat: '<tr><td style="color:#c27c94;padding:0">{series.name}: </td>' +
+                            '<td style="padding:0"><b>{point.y:.1f} %</b></td></tr>'
                     }
                 }]
             });
@@ -165,14 +167,14 @@ $(function () {
 
             colorAxis: {
                 dataClasses: [{
-                    to: 65,
+                    to: 63,
                     color: '#ffe9ed'
                 }, {
-                    from: 66,
-                    to: 80,
+                    from: 64,
+                    to: 74,
                     color: '#dd9eaf'
                 }, {
-                    from: 81,
+                    from: 75,
                     color: '#a65c7a'
                 }]
             },
